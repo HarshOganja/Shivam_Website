@@ -1,0 +1,11 @@
+:root {
+  --clr-100: #001626;  /* originally clr-900 */
+  --clr-200: #00274D;  /* originally clr-800 */
+  --clr-300: #023574;  /* originally clr-700 */
+  --clr-400: #0A439B;  /* originally clr-600 */
+  --clr-500: #1D54C2;  /* remains the same */
+  --clr-600: #5079E5;  /* originally clr-400 */
+  --clr-700: #88A0F7;  /* originally clr-300 */
+  --clr-800: #BFC9FE;  /* originally clr-200 */
+  --clr-900: #F2F4FF;  /* originally clr-100 */
+}

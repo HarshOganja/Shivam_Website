@@ -1,0 +1,82 @@
+
+/* Home Contact Section */
+.home-contact {
+  background: linear-gradient(270deg, var(--clr-500), var(--clr-900));
+  color: var(--clr-100);
+  padding: 40px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 4px solid var(--clr-400);
+}
+
+.contact-heading {
+/* Heading Style */
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--clr-200);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* Description Style */
+.contact-description {
+  font-size: 18px;
+  max-width: 900px;
+  margin-bottom: 25px;
+  text-align: center;
+  color: var(--clr-200);
+}
+
+/* Grid Layout */
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Contact Card */
+.contact-card {
+  flex: 1 1 250px;
+  background-color: var(--clr-100);
+  color: var(--clr-800);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 250px;
+  font-size: large;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* Emphasis in Card */
+.contact-card strong {
+  color: var(--clr-800);
+  font-size: x-large;
+}
+
+/* List Inside Cards */
+.contact-card ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+.contact-card ul li {
+  list-style: disc;
+}
+
+/* Responsive for Mobile */
+@media (max-width: 768px) {
+  .contact-heading {
+    font-size: 28px;
+  }
+
+  .contact-description {
+    font-size: 16px;
+  }
+}
