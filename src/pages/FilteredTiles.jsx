@@ -14,7 +14,7 @@ const FilteredTiles = () => {
     useEffect(() => {
         const fetchTiles = async () => {
             try {
-                const res = await axios.get("https://shivam-traders.onrender.com");
+                const res = await axios.get("https://shivam-traders.onrender.com/api/Tiles_data");
                 const filtered = res.data.filter(tile => tile.size === size);
 
                 // Group by category
