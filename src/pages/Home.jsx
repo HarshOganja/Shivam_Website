@@ -15,7 +15,7 @@ function Home() {
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
 
-    fetch("http://localhost:5000/api/Tiles_data")
+    fetch("https://shivam-traders.onrender.com")
       .then((res) => {
         if (!res.ok) throw new Error("Network response was not ok");
         return res.json();
